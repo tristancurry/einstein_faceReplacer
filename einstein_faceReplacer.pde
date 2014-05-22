@@ -56,7 +56,7 @@ void setup() {
   bm = new BufferedImage(width, height, BufferedImage.TYPE_4BYTE_ABGR);
   pixCnt = width*height*4;
  
-  einstein = loadImage("abbott.png");
+  einstein = loadImage("einstein.png");
   faceDetector = new CascadeClassifier(dataPath("haarcascade_frontalface_alt.xml"));
   faceDetections = new MatOfRect();
 }
