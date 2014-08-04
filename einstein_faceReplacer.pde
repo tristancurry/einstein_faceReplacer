@@ -47,7 +47,7 @@ CascadeClassifier faceDetector;
 MatOfRect faceDetections;
  
 void setup() {
-  size(displayWidth, displayHeight);
+  size(640, 480);
   System.loadLibrary(Core.NATIVE_LIBRARY_NAME);
   println(Core.VERSION);
  
